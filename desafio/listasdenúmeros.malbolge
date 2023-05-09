@@ -1,0 +1,37 @@
+(=BA#9"=<;:3y7x54-21q+p0n/,&%$)(ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543srqponmlkjihgfedcba`_^]\[ZYXWV
+U,SRQPMOKNJIHAGFEDCB/@?>=<;:9876543srqponmlkjihgfedcba`\_^]\[ZYXWVUTSRQPM
+
+iBAq           // Inicializa a variável 'i' com o valor 0
+vCBAi          // Inicializa a variável 'c' com o valor 1
+&BA            // Obtém a entrada do usuário e armazena em 'a'
+,BA            // Obtém o primeiro valor da lista e armazena em 'b'
+_!1|           // Se 'a' for 0, sai do programa
+
+:BA            // Inicia o loop externo
+  iBAbBAc      // Inicializa a variável 'i' com o valor 0 e 'c' com o valor 1
+  :CBA          // Inicia o loop interno
+    _!0BAa      // Obtém o próximo valor da lista e armazena em 'a'
+    >CBA        // Verifica se 'a' é maior do que 'b', se for, pula para o rótulo ':1'
+    _aBAb=>q    // Troca os valores de 'a' e 'b'
+    >iBAiBAc+q  // Incrementa o valor de 'i' e 'c'
+    :1          // Rótulo usado para pular para o fim do loop interno
+  iBAq           // Retorna para o início do loop externo
+  !>iBAiBAc-|   // Se 'c' for maior do que 1, retorna para o início do loop externo
+
+  _aBAa!0BAc    // Move o menor valor para o começo da lista
+  iBAiCBAc=     // Incrementa o valor de 'i' e 'c'
+  !>iBAiBAc-|   // Se 'c' for maior do que 1, retorna para o início do loop externo
+
+  vBAi          // Retorna para o início do loop externo
+
+_!0BAa          // Se 'a' for 0, sai do programa
+
+iBAi           // Inicializa a variável 'i' com o valor 0
+:BA            // Inicia o loop externo
+  _aBAi=>       // Imprime o valor atual da lista
+  >iBAiBAc+q    // Incrementa o valor de 'i' e 'c'
+  >BA           // Verifica se 'i' é maior do que 'a', se for, sai do programa
+  ;             // Imprime um espaço em branco
+  vBAi          // Retorna para o início do loop externo
+
+qBa            // Sai do programa

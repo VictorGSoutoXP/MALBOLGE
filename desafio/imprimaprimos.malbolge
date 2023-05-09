@@ -1,0 +1,23 @@
+(=BA#9"=<;:3y7x54-21q+p0n/,&%$)(ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543srqponmlkjihgfedcba`_^]\[ZYXWV
+U,SRQPMOKNJIHAGFEDCB/@?>=<;:9876543srqponmlkjihgfedcba`\_^]\[ZYXWVUTSRQPM
+
+iBAq           // Inicializa a variável 'i' com o valor 2
+vCBAi          // Inicializa a variável 'c' com o valor 2
+&BA            // Obtém a entrada do usuário e armazena em 'a'
+P`i`H<         // Loop principal começa aqui
+  iBAi         // Incrementa o valor de 'i'
+  >_aBA=>q     // Verifica se o valor de 'i' é maior do que 'a', se for, o loop termina
+  %i`H=BAi     // Obtém o resto da divisão de 'a' por 'i' e armazena em 'h'
+  =BAcBAq      // Inicializa a variável 'c' com o valor 0
+  qP^cbBAM=    // Loop interno começa aqui
+    >~:1H=|!; // Se 'h' for igual a 1, sai do loop
+    h=BAc      // Se o resto da divisão for igual a 0, incrementa o valor de 'c'
+    qP^cBAM=   // Obtém o próximo dígito do número 'h' e volta para o início do loop
+  iBAcBAc=     // Verifica se o valor de 'c' é igual a 1
+  >_cBA=|!     // Se o valor de 'c' for igual a 1, imprime o valor atual de 'i'
+;!|            // Retorna para o início do loop principal
+
+qBa            // Sai do programa
+
+// Escrever um programa que receba um número como entrada e imprima todos os números primos até esse número.
+

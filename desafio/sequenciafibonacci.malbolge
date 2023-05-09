@@ -1,0 +1,14 @@
+(=BA#9"=<;:3y7x54-21q+p0n/,&%$)(ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543srqponmlkjihgfedcba`_^]\[ZYXWV
+U,SRQPMOKNJIHAGFEDCB/@?>=<;:9876543srqponmlkjihgfedcba`\_^]\[ZYXWVUTSRQPM
+
+iBAq      // Inicializa a variável 'i' com o valor 10
+vCBAq     // Inicializa a variável 'c' com o valor 0
+VPONMLKIH // Loop principal começa aqui
+`HFEDCBA  // Imprime o valor atual de 'c'
+vCBA      // Carrega o valor atual de 'c'
+i@vCBAn   // Soma o valor atual de 'c' com o valor anterior e armazena o resultado em 'c'
+qBAi      // Decrementa o valor de 'i'
+?:BA      // Verifica se o valor de 'i' é igual a 0, se for, o loop termina
+;!|      // Se o valor de 'i' não for igual a 0, retorna para o início do loop
+
+// Escrever um programa que imprima a sequência de números de Fibonacci até o décimo termo.

@@ -1,0 +1,17 @@
+(=BA#9"=<;:3y7x54-21q+p0n/,&%$)(ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543srqponmlkjihgfedcba`_^]\[ZYXWV
+U,SRQPMOKNJIHAGFEDCB/@?>=<;:9876543srqponmlkjihgfedcba`\_^]\[ZYXWVUTSRQPM
+
+iBAq           // Inicializa a variável 'i' com o valor 2
+vCBAi          // Inicializa a variável 'c' com o valor 1
+&BA            // Obtém a entrada do usuário e armazena em 'a'
+P`i`H<         // Loop principal começa aqui
+  iBAi         // Incrementa o valor de 'i'
+  >_aBA=>q     // Verifica se o valor de 'i' é maior do que 'a', se for, o loop termina
+  =BAcBAq      // Inicializa a variável 'c' com o valor atual de 'c' multiplicado por 'i'
+;!|            // Retorna para o início do loop principal
+
+iBAcBAc=       // Imprime o resultado final do fatorial
+
+qBa            // Sai do programa
+
+// Escrever um programa que calcule o fatorial de um número fornecido como entrada.

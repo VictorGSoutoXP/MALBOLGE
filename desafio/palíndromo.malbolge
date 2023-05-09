@@ -1,0 +1,32 @@
+(=BA#9"=<;:3y7x54-21q+p0n/,&%$)(ZYXWVUTSRQPONMLKJIHGFEDCBA@?>=<;:9876543srqponmlkjihgfedcba`_^]\[ZYXWV
+U,SRQPMOKNJIHAGFEDCB/@?>=<;:9876543srqponmlkjihgfedcba`\_^]\[ZYXWVUTSRQPM
+
+iBAq            // Inicializa a variável 'i' com o valor 0
+vCBAi           // Inicializa a variável 'c' com o valor 1
+vDBAi           // Inicializa a variável 'd' com o valor 1
+&BA             // Obtém a entrada do usuário e armazena em 'a'
+
+:BA             // Inicia o loop externo
+  iBAc          // Inicializa a variável 'i' com o valor 0
+  >CBA          // Obtém o próximo caractere da entrada e armazena em 'b'
+  _aBAi=>       // Imprime o caractere atual
+  !>CBAiBAc|    // Se 'c' for maior do que 1, retorna para o início do loop externo
+  >CBA          // Obtém o próximo caractere da entrada e armazena em 'c'
+
+  :CBA          // Inicia o loop interno
+    >DBA        // Obtém o próximo caractere da entrada e armazena em 'd'
+    !1MBAa      // Se 'a' for menor do que 'd', sai do programa
+    >BA         // Obtém o próximo caractere da entrada e armazena em 'a'
+    _aBAi=>     // Imprime o caractere atual
+    !>DBAiDBAc| // Se 'd' for maior do que 1, retorna para o início do loop interno
+  >DBAiDBAc-|   // Se 'd' for maior do que 1, retorna para o início do loop externo
+  ;             // Imprime um espaço em branco
+  vCBAi         // Incrementa o valor de 'c'
+  vDBAi         // Incrementa o valor de 'd'
+  >BA           // Obtém o próximo caractere da entrada e armazena em 'a'
+  _!0MBAa      // Se 'a' for 0, sai do programa
+  vBAi          // Retorna para o início do loop externo
+
+qBa             // Sai do programa
+
+Observe que este programa imprime a palavra ou frase original na primeira linha e, em seguida, imprime a mesma palavra ou frase em ordem reversa na segunda linha. Para verificar se a palavra ou frase é um palíndromo, basta comparar as duas linhas. Se elas forem iguais, a palavra ou frase é um palíndromo. Caso contrário, não é.
